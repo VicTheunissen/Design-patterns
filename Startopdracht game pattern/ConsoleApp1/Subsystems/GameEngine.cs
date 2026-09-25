@@ -1,0 +1,25 @@
+namespace GameApp.Subsystems
+{
+    public class GameEngine
+    {
+        public void LoadWorld()
+        {
+            Console.WriteLine("Gamewereld geladen.");
+        }
+
+        public void Start()
+        {
+            Console.WriteLine("Game gestart!");
+        }
+
+        public void Stop()
+        {
+            Console.WriteLine("Game gestopt.");
+        }
+
+        public void UnloadWorld()
+        {
+            Console.WriteLine("Gamewereld uit het geheugen verwijderd.");
+        }
+    }
+}
